@@ -1,0 +1,31 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+header{
+  height: 50px;
+  background-color: rgb(43, 107, 226);
+  color: white;
+  width: 100%;
+  /* How the below combinations makes the text to become center */
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  display: flex;
+  font-size: 30px;
+}
+
+.currentWeatherResults{
+  margin-left: 30%;
+  margin-top: -100px;
+}
+
+.futureweather{
+  height: 30%;
+  width: 40px;
+  background-color: rgb(77, 70, 70);
+}
+
+
