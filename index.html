@@ -17,51 +17,41 @@
         <header>Weather Dashboard</header>
         <article>
             <div class="row">
-                <div class="col-4">
-                    <div class="row" id="row1">
+                <div class="mainSearch">
+                    <div id="searchForACity">
                         <p>Search for a City:</p>
                     </div>
-                    <div class="row">
-                        <input type="text"></input>
+                    <div id="searchCity">
+                        <input type="text" id="cityText" value="chennai"></input>
                     </div>
-                    <div class="row">
+                    <div id="searchButton">
                         <button class="search">Search</button>
                         <div class="line"></div>
                     </div>
-
-                    <div class="col-8">
-                        <div class="currentWeatherResults">
-                        </div>
-                    </div>
-                    <div class="futureForecast">
-                        <div class="futureForecast1 futureweather">
-                        </div>
-                        <div class="futureForecast2 futureweather">
-
-                        </div>
-                        <div class="futureForecast3 futureweather">
-
-                        </div>
-                        <div class="futureForecast4 futureweather">
-
-                        </div>
-                        <div class="futureForecast5 futureweather">
-
-                        </div>
-                    </div>
+                    
 
 
                 </div>
-            </div>
-            <div class="row">
+
+
+                    <div id=currentWeatherResults>
+                        <div id="city" class="attributes"></div>
+                        <div id="currentTemp" class="attributes"></div>
+                        <div id="currentWind" class="attributes"></div>
+                        <div id="currentHumidity" class="attributes"></div>
+                        <div id="divcurrentUVIndex" class="attributes"></div>
+                    </div>
+                    <div class="futureForecast">
+                    </div>
+
             </div>
             </div>
 
         </article>
     </article>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>

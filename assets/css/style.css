@@ -17,15 +17,67 @@ header{
   font-size: 30px;
 }
 
-.currentWeatherResults{
-  margin-left: 30%;
+#currentWeatherResults{
+  margin-left: 25%;
   margin-top: -100px;
+  border: 1px solid grey;
+}
+
+.attributes{
+  padding: 5px;
 }
 
 .futureweather{
-  height: 30%;
+  height: 10%;
   width: 40px;
   background-color: rgb(77, 70, 70);
+}
+
+.futureForecast{
+  /* flex-wrap: wrap; */
+  margin-left: 25%;
+}
+
+.subFeatureFore{
+  background-color: rgb(55, 57, 172);
+  height: 150px;
+  width: 100px;
+  padding: 2%;
+  color: white;
+  display: block;
+}
+.futureForecast1{
+  margin-top: 50px;
+}
+.futureForecast2{
+margin-top: -180px;
+margin-left: 150px;
+}
+
+.futureForecast3{
+  margin-top: -180px;
+  margin-left: 300px;
+  }
+
+  .futureForecast4{
+    margin-top: -180px;
+    margin-left: 450px;
+    }
+
+    .futureForecast5{
+      margin-top: -180px;
+      margin-left: 600px;
+      }
+/* 
+.futureForecast1, .futureForecast2{
+  display: block;
+  flex-wrap: wrap;
+} */
+
+
+.fwDate, .fwIcon, .fwTemp, .fwSpeed, .fwHumidity{
+display: block;
+padding: 3%;
 }
 
 
